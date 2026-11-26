@@ -2,7 +2,7 @@
   "name": "EmeraudeConstruction",
   "version_number": "1.0.0",
   "website_url": "",
-  "description": "One key (Backspace by default) puts building snapping back to automatic after choosing a snap point with Q/E.",
+  "description": "One key (Backspace by default) puts the piece you are placing back in its default position: straight on every axis, automatic snapping.",
   "dependencies": [
     "denikson-BepInExPack_Valheim-5.4.2360"
   ]

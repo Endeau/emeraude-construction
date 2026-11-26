@@ -18,7 +18,7 @@ done
 grep -q "^## $VERSION" thunderstore/CHANGELOG.md || { echo "Ajoute la version $VERSION dans thunderstore/CHANGELOG.md" >&2; exit 1; }
 
 mkdir -p lib
-cp "$VALHEIM_MANAGED"/{assembly_valheim,assembly_utils,UnityEngine,UnityEngine.CoreModule}.dll lib/
+cp "$VALHEIM_MANAGED"/{assembly_valheim,assembly_utils,assembly_guiutils,UnityEngine,UnityEngine.CoreModule}.dll lib/
 cp "$BEPINEX_CORE"/{BepInEx,0Harmony}.dll lib/
 
 dotnet build src -c Release -nologo -v quiet
